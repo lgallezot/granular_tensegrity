@@ -1,8 +1,9 @@
-# granular_tensegrity
+# Geometric analysis of tensegrity-based granular materials for support of semi-collapsed structures
+## Overview
 This repository contains files used for the project "Geometric analysis of tensegrity-based granular
 materials for support of semi-collapsed structures". Here you can find files used for simulations, data coming from real-life tests, and videos to illustrate what has been realized.
 
-Instructions to use the files for simulation:
+## Instructions to use the files for simulation:
 Warning: To run these .gh files, you need to have the Kangaroo2 and KangarooEngineering plug-ins installed
 For Test 1 (Single unit deformation test), run the test1_test2_test4.gh file and follow the following steps:
   1. choose a geometry among Star3, T3 and Icosahedron
