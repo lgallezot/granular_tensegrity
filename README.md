@@ -5,6 +5,7 @@ materials for support of semi-collapsed structures". Here you can find files use
 
 ## Instructions to use the files for simulation:
 Warning: To run these .gh files, you need to have the Kangaroo2 and KangarooEngineering plug-ins installed
+### Test 1 (Single unit deformation test)
 For Test 1 (Single unit deformation test), run the test1_test2_test4.gh file and follow the following steps:
   1. choose a geometry among Star3, T3 and Icosahedron
   2. branch the 1unit relay
@@ -14,6 +15,7 @@ For Test 1 (Single unit deformation test), run the test1_test2_test4.gh file and
   6. adjust the plate height for it to be just on top of the unit
   7. you can then choose the load applied on top of the plate by changing the dimensions of the bar
 
+### Test 2 (Load-bearing performance in contained space)
 For Test 2 (Load-bearing performance in contained space), run the test1_test2_test4.gh file and follow the following steps:
   1. choose a geometry among Star3, T3 and Icosahedron
   2. adjust the population of units as desired
@@ -25,10 +27,12 @@ For Test 2 (Load-bearing performance in contained space), run the test1_test2_te
   8. To deploy the units, set the Solver's damping to 0.8 or below and disable the Spring component denoted as 'cable to shrink'
   9. To apply a load, follow the sam procedure as in Test 1
 
+### Test 3 (Spread behavior of falling units)
 For Test 3 (Spread behavior of falling units), run the test3.gh file and follow the following steps:
   1. choose a geometry among Star3, T3, Icosahedron and Sphere
   2. adjust the population of units as desired
 
+### Test 4 (Deployment in complex geometry)
 For Test 4 (Deployment in complex geometry), run the test1_test2_test4.gh file and follow the following steps:
   1. choose a geometry among Star3, T3 and Icosahedron
   2. adjust the population of units as desired
